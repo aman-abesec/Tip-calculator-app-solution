@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/aman-abesec/Tip-calculator-app-solution)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://aman-abesec.github.io/Tip-calculator-app-solution/)
 
 ## My process
 
