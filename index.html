@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+
+      <div class="bill">
+        <label for="bill-amount">Bill</label>
+        <input type="text" id="bill-amount" placeholder="$ ">
+      </div>
+
+      <div class="tip">
+        <span>Select Tip %</span>
+        <div class="group-btn">
+          <input type="button" value="5%">
+          <input type="button" value="10%">
+          <input type="button" value="15%">
+          <input type="button" value="25%">
+          <input type="button" value="50%">
+          <input type="input" placeholder="Custom" id="custom-input">
+        </div>
+      </div>
+
+      <div class="people">
+        <label for="people">Number of People</label>
+        <input type="text" id="people" placeholder="👨 ">
+      </div>
+
+    </div>
+    <div class="right">
+      <div class="tip-amount">
+        <div class="wrap">
+          <p>Tip Amount</p>
+          <span>/ person</span>
+        </div>
+        <span class="result" id="total-tip-amount">$ 0</span>
+      </div>
+      <div class="total-amount">
+        <div class="wrap">
+          <p>Total Amount</p>
+          <span>/ person</span>
+        </div>
+        <span class="result" id="total-amount">$ 0</span>
+      </div>
+      <button type="button" name="button" class="main-btn">RESET</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Aman Singh</a>.
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
